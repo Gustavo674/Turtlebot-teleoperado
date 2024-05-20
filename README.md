@@ -28,8 +28,10 @@ Turtlebot-teleoperado/
 ## Configuração do Projeto
 
 1. Clone o repositório:
-`git clone https://github.com/seuusuario/Turtlebot-teleoperado.git
-cd Turtlebot-teleoperado`
+```bash
+git https://github.com/Gustavo674/Turtlebot-teleoperado.git
+cd Turtlebot-teleoperado
+```
 
 ### Descrição das Pastas e Arquivos
 
@@ -69,28 +71,28 @@ cd Turtlebot-teleoperado`
 
   Edite o arquivo /opt/ros/humble/share/turtlebot3_navigation2/param/burger.yaml:
 
-  sudo nano /opt/ros/humble/share/turtlebot3_navigation2/param/burger.yaml
+  `sudo nano /opt/ros/humble/share/turtlebot3_navigation2/param/burger.yaml`
   
   Altere a linha:
 
-  robot_model_type: "differential"
+  `robot_model_type: "differential"`
   
   Para:
 
-  robot_model_type: "nav2_amcl::DifferentialMotionModel"
+  `robot_model_type: "nav2_amcl::DifferentialMotionModel"`
 
 ## Compilação do Workspace
 
 1.**Navegue para o diretório raiz do workspace e compile:**
-  
-  `cd ~/Turtlebot-teleoperado 
-   colcon build`
-
+  ```bash
+  cd ~/Turtlebot-teleoperado 
+  colcon build
+  ```
 2.**Fonte o ambiente:**
-
+  ```bash
   `source /opt/ros/humble/setup.bash
    source install/setup.bash`
-
+  ```
 ## Execução
 
 1.**Terminal 1: Iniciar Webots**
@@ -99,28 +101,28 @@ cd Turtlebot-teleoperado`
     source /opt/ros/humble/setup.bash
     source install/setup.bash
     ros2 launch webots_ros2_turtlebot robot_launch.py
-    
+    ```
 2.**Terminal 2: Navegação e Mapeamento Simultâneo**
     ```bash
     cd ~/Turtlebot-teleoperado
     source /opt/ros/humble/setup.bash
     source install/setup.bash
     ros2 launch nav2_bringup tb3_simulation_launch.py slam:=True
-    
+    ```
 3.**Terminal 3: Interface de Teleoperação**
     ```bash
     cd ~/Turtlebot-teleoperado
     source /opt/ros/humble/setup.bash
     source install/setup.bash
     ros2 run turtlebot_teleop teleop_interface
-    
+    ```
 4.**Terminal 4: Nó de Controle**
      ```bash
     cd ~/Turtlebot-teleoperado
     source /opt/ros/humble/setup.bash
     source install/setup.bash
     ros2 run turtlebot_teleop teleop_node
-    
+    ```
 ## Controlando o Robô
 
 Para controlar o robô, você deve estar no terminal onde a interface de teleoperação está sendo executada (ros2 run turtlebot_teleop teleop_interface). Use as seguintes teclas para controlar o robô:
