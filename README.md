@@ -36,12 +36,6 @@ git https://github.com/Gustavo674/Turtlebot-teleoperado.git
 cd Turtlebot-teleoperado
 ```
 
-## Requisitos
-
-- ROS 2 Humble
-- Webots
-- Pacotes ROS 2 para Webots e Turtlebot3
-
 ## Configuração do Ambiente
 
 1. **Instale o Webots:**
