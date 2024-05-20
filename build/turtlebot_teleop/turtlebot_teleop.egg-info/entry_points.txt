@@ -1,0 +1,4 @@
+[console_scripts]
+teleop_interface = turtlebot_teleop.teleop_interface:main
+teleop_node = turtlebot_teleop.teleop_node:main
+

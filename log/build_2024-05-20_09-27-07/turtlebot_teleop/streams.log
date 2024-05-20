@@ -1,0 +1,35 @@
+[2.518s] Invoking command in '/home/oiomestre674/Turtlebot-teleoperado/src/turtlebot_teleop': PYTHONPATH=/home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/prefix_override:/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_teleop build --build-base /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build install --record /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/install.log --single-version-externally-managed
+[2.978s] running egg_info
+[2.979s] creating ../../build/turtlebot_teleop/turtlebot_teleop.egg-info
+[2.979s] writing ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/PKG-INFO
+[2.979s] writing dependency_links to ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/dependency_links.txt
+[2.979s] writing entry points to ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/entry_points.txt
+[2.980s] writing requirements to ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/requires.txt
+[2.980s] writing top-level names to ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/top_level.txt
+[2.980s] writing manifest file '../../build/turtlebot_teleop/turtlebot_teleop.egg-info/SOURCES.txt'
+[2.982s] reading manifest file '../../build/turtlebot_teleop/turtlebot_teleop.egg-info/SOURCES.txt'
+[2.984s] writing manifest file '../../build/turtlebot_teleop/turtlebot_teleop.egg-info/SOURCES.txt'
+[2.984s] running build
+[2.984s] running build_py
+[2.984s] creating /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build
+[2.984s] creating /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build/lib
+[2.984s] creating /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build/lib/turtlebot_teleop
+[2.985s] copying turtlebot_teleop/teleop_interface.py -> /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build/lib/turtlebot_teleop
+[2.985s] copying turtlebot_teleop/__init__.py -> /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build/lib/turtlebot_teleop
+[2.985s] copying turtlebot_teleop/teleop_node.py -> /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build/lib/turtlebot_teleop
+[2.985s] running install
+[2.985s] running install_lib
+[2.986s] creating /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop
+[2.987s] copying /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build/lib/turtlebot_teleop/teleop_interface.py -> /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop
+[2.987s] copying /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build/lib/turtlebot_teleop/__init__.py -> /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop
+[2.987s] copying /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build/lib/turtlebot_teleop/teleop_node.py -> /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop
+[2.988s] byte-compiling /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop/teleop_interface.py to teleop_interface.cpython-310.pyc
+[2.989s] byte-compiling /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop/__init__.py to __init__.cpython-310.pyc
+[2.989s] byte-compiling /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop/teleop_node.py to teleop_node.cpython-310.pyc
+[2.990s] running install_egg_info
+[2.992s] Copying ../../build/turtlebot_teleop/turtlebot_teleop.egg-info to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop-0.0.0-py3.10.egg-info
+[2.993s] running install_scripts
+[3.016s] Installing teleop_interface script to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop
+[3.017s] Installing teleop_node script to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop
+[3.017s] writing list of installed files to '/home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/install.log'
+[3.037s] Invoked command in '/home/oiomestre674/Turtlebot-teleoperado/src/turtlebot_teleop' returned '0': PYTHONPATH=/home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/prefix_override:/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_teleop build --build-base /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build install --record /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/install.log --single-version-externally-managed
