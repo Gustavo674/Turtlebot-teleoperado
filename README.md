@@ -95,46 +95,49 @@ cd Turtlebot-teleoperado
   ```
 ## Execução
 
-1.**Terminal 1: Iniciar Webots**
+1. **Terminal 1: Iniciar Webots**
     ```bash
     cd ~/Turtlebot-teleoperado
     source /opt/ros/humble/setup.bash
     source install/setup.bash
     ros2 launch webots_ros2_turtlebot robot_launch.py
     ```
-2.**Terminal 2: Navegação e Mapeamento Simultâneo**
+    
+2. **Terminal 2: Navegação e Mapeamento Simultâneo**
     ```bash
     cd ~/Turtlebot-teleoperado
     source /opt/ros/humble/setup.bash
     source install/setup.bash
     ros2 launch nav2_bringup tb3_simulation_launch.py slam:=True
     ```
-3.**Terminal 3: Interface de Teleoperação**
+    
+3. **Terminal 3: Interface de Teleoperação**
     ```bash
     cd ~/Turtlebot-teleoperado
     source /opt/ros/humble/setup.bash
     source install/setup.bash
     ros2 run turtlebot_teleop teleop_interface
     ```
-4.**Terminal 4: Nó de Controle**
-     ```bash
+    
+4. **Terminal 4: Nó de Controle**
+    ```bash
     cd ~/Turtlebot-teleoperado
     source /opt/ros/humble/setup.bash
     source install/setup.bash
     ros2 run turtlebot_teleop teleop_node
     ```
+
 ## Controlando o Robô
 
-Para controlar o robô, você deve estar no terminal onde a interface de teleoperação está sendo executada (ros2 run turtlebot_teleop teleop_interface). Use as seguintes teclas para controlar o robô:
+Para controlar o robô, você deve estar no terminal onde a interface de teleoperação está sendo executada (`ros2 run turtlebot_teleop teleop_interface`). Use as seguintes teclas para controlar o robô:
 
-w: Move para frente.
-s: Move para trás.
-a: Rotaciona para a esquerda.
-d: Rotaciona para a direita.
-q: Para o robô e sai da teleoperação.
+- `w`: Move para frente.
+- `s`: Move para trás.
+- `a`: Rotaciona para a esquerda.
+- `d`: Rotaciona para a direita.
+- `q`: Para o robô e sai da teleoperação.
 
 Certifique-se de que o terminal da interface de teleoperação está em foco para que ele possa receber os comandos do teclado.
 
 ## Vídeo de Demonstração
-
 [Link para o vídeo]()
