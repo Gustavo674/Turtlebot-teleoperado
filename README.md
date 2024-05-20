@@ -7,19 +7,21 @@ Este projeto permite a teleoperação de um Turtlebot utilizando ROS 2 e Webots.
 A estrutura de diretórios do projeto é a seguinte:
 
 
-Turtlebot-teleoperado/
-├── src/
-│ └── turtlebot_teleop/
-│ ├── resource/
-│ │ └── init.py
-│ ├── turtlebot_teleop/
-│ │ ├── init.py
-│ │ ├── teleop_interface.py
-│ │ └── teleop_node.py
-│ ├── setup.py
-│ └── setup.cfg
-├── README.md
-└── install/ (criado após build)
+| Diretório/Arquivo                       | Descrição                                                |
+|-----------------------------------------|----------------------------------------------------------|
+| `Turtlebot-teleoperado/`                | Diretório raiz do projeto                                |
+| `├── src/`                              | Contém todos os pacotes ROS 2                            |
+| `│   └── turtlebot_teleop/`             | Pacote ROS 2 principal para teleoperação                 |
+| `│       ├── resource/`                 | Diretório para arquivos de recursos                      |
+| `│       │   └── __init__.py`           | Arquivo de inicialização do pacote                       |
+| `│       ├── turtlebot_teleop/`         | Diretório com os scripts de teleoperação                 |
+| `│       │   ├── __init__.py`           | Arquivo de inicialização do pacote                       |
+| `│       │   ├── teleop_interface.py`   | Script que implementa a interface de teleoperação        |
+| `│       │   └── teleop_node.py`        | Script que implementa o nó de controle do robô           |
+| `│       ├── setup.py`                  | Script de configuração para o pacote ROS 2               |
+| `│       └── setup.cfg`                 | Arquivo de configuração complementar para o `setup.py`   |
+| `├── README.md`                         | Arquivo README com informações sobre o projeto           |
+| `└── install/`                          | Diretório criado após a build                            |
 
 ## Requisitos
 - ROS 2 Humble
@@ -33,19 +35,6 @@ Turtlebot-teleoperado/
 git https://github.com/Gustavo674/Turtlebot-teleoperado.git
 cd Turtlebot-teleoperado
 ```
-
-
-### Descrição das Pastas e Arquivos
-
-- `src/`: Diretório que contém todos os pacotes ROS 2.
-- `src/turtlebot_teleop/`: Pacote ROS 2 principal para teleoperação.
-  - `resource/`: Diretório para arquivos de recursos, atualmente contém apenas o arquivo `__init__.py`.
-  - `turtlebot_teleop/`: Diretório com os scripts de teleoperação.
-    - `teleop_interface.py`: Script que implementa a interface de teleoperação.
-    - `teleop_node.py`: Script que implementa o nó de controle do robô.
-  - `setup.py`: Script de configuração para o pacote ROS 2.
-  - `setup.cfg`: Arquivo de configuração complementar para o `setup.py`.
-- `README.md`: Este arquivo, contendo informações sobre o projeto.
 
 ## Requisitos
 
