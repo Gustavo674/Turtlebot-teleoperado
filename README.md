@@ -6,7 +6,6 @@ Este projeto permite a teleoperação de um Turtlebot utilizando ROS 2 e Webots.
 ## Estrutura de Diretórios
 A estrutura de diretórios do projeto é a seguinte:
 
-
 | Diretório/Arquivo                       | Descrição                                                |
 |-----------------------------------------|----------------------------------------------------------|
 | `Turtlebot-teleoperado/`                | Diretório raiz do projeto                                |
@@ -17,7 +16,10 @@ A estrutura de diretórios do projeto é a seguinte:
 | `│       ├── turtlebot_teleop/`         | Diretório com os scripts de teleoperação                 |
 | `│       │   ├── __init__.py`           | Arquivo de inicialização do pacote                       |
 | `│       │   ├── teleop_interface.py`   | Script que implementa a interface de teleoperação        |
-| `│       │   └── teleop_node.py`        | Script que implementa o nó de controle do robô           |
+| `│       │   ├── teleop_node.py`        | Script que implementa o nó de controle do robô           |
+| `│       │   ├── image_publisher.py`    | Script que publica imagens da câmera                     |
+| `│       │   ├── image_subscriber.py`   | Script que recebe e processa imagens                     |
+| `│       │   ├── teleop_interface_gui.py`| Script que implementa a interface gráfica de teleoperação|
 | `│       ├── setup.py`                  | Script de configuração para o pacote ROS 2               |
 | `│       └── setup.cfg`                 | Arquivo de configuração complementar para o `setup.py`   |
 | `├── README.md`                         | Arquivo README com informações sobre o projeto           |
@@ -31,10 +33,10 @@ A estrutura de diretórios do projeto é a seguinte:
 ## Configuração do Projeto
 
 1. Clone o repositório:
-```bash
-git https://github.com/Gustavo674/Turtlebot-teleoperado.git
-cd Turtlebot-teleoperado
-```
+    ```bash
+    git clone https://github.com/Gustavo674/Turtlebot-teleoperado.git
+    cd Turtlebot-teleoperado
+    ```
 
 ## Configuração do Ambiente
 
@@ -105,12 +107,12 @@ cd Turtlebot-teleoperado
     ros2 launch nav2_bringup tb3_simulation_launch.py slam:=True
     ```
 
-3. **Terminal 3: Interface de Teleoperação**
+3. **Terminal 3: Interface Gráfica de Teleoperação**
     ```bash
     cd ~/Turtlebot-teleoperado
     source /opt/ros/humble/setup.bash
     source install/setup.bash
-    ros2 run turtlebot_teleop teleop_interface
+    ros2 run turtlebot_teleop teleop_interface_gui
     ```
 
 4. **Terminal 4: Nó de Controle**
@@ -121,17 +123,41 @@ cd Turtlebot-teleoperado
     ros2 run turtlebot_teleop teleop_node
     ```
 
+5. **Terminal 5: Detecção de Obstáculos**
+    ```bash
+    cd ~/Turtlebot-teleoperado
+    source /opt/ros/humble/setup.bash
+    source install/setup.bash
+    ros2 run turtlebot_teleop obstacle_detection
+    ```
+
+6. **Terminal 6: Publicação de Imagens**
+    ```bash
+    cd ~/Turtlebot-teleoperado
+    source /opt/ros/humble/setup.bash
+    source install/setup.bash
+    ros2 run turtlebot_teleop image_publisher
+    ```
+
+7. **Terminal 7: Assinatura de Imagens**
+    ```bash
+    cd ~/Turtlebot-teleoperado
+    source /opt/ros/humble/setup.bash
+    source install/setup.bash
+    ros2 run turtlebot_teleop image_subscriber
+    ```
+
 ## Controlando o Robô
 
-Para controlar o robô, você deve estar no terminal onde a interface de teleoperação está sendo executada (`ros2 run turtlebot_teleop teleop_interface`). Use as seguintes teclas para controlar o robô:
+Para controlar o robô, você deve estar no terminal onde a interface gráfica de teleoperação está sendo executada (`ros2 run turtlebot_teleop teleop_interface_gui`). Use os botões na interface gráfica para controlar o robô:
 
-- `w`: Move para frente.
-- `s`: Move para trás.
-- `a`: Rotaciona para a esquerda.
-- `d`: Rotaciona para a direita.
-- `q`: Para o robô e sai da teleoperação.
+- `Forward`: Move para frente.
+- `Backward`: Move para trás.
+- `Left`: Rotaciona para a esquerda.
+- `Right`: Rotaciona para a direita.
+- `Stop`: Para o robô.
 
-Certifique-se de que o terminal da interface de teleoperação está em foco para que ele possa receber os comandos do teclado.
+A latência estimada para cada frame será exibida na interface gráfica.
 
 ## Vídeo de Demonstração
 [Link para o vídeo](https://drive.google.com/file/d/1e1YzeNTJLjSPFr0Ow0qE5D45DKb8fLdS/view?usp=sharing)
