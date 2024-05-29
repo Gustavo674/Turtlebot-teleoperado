@@ -1,0 +1,28 @@
+[1.971s] Invoking command in '/home/oiomestre674/Turtlebot-teleoperado/src/turtlebot_teleop': PYTHONPATH=/home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/prefix_override:/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_teleop build --build-base /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build install --record /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/install.log --single-version-externally-managed
+[2.409s] running egg_info
+[2.409s] writing ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/PKG-INFO
+[2.410s] writing dependency_links to ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/dependency_links.txt
+[2.410s] writing entry points to ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/entry_points.txt
+[2.410s] writing requirements to ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/requires.txt
+[2.410s] writing top-level names to ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/top_level.txt
+[2.411s] reading manifest file '../../build/turtlebot_teleop/turtlebot_teleop.egg-info/SOURCES.txt'
+[2.412s] writing manifest file '../../build/turtlebot_teleop/turtlebot_teleop.egg-info/SOURCES.txt'
+[2.412s] running build
+[2.412s] running build_py
+[2.412s] copying turtlebot_teleop/obstacle_detection.py -> /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build/lib/turtlebot_teleop
+[2.412s] copying turtlebot_teleop/teleop_node.py -> /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build/lib/turtlebot_teleop
+[2.413s] running install
+[2.413s] running install_lib
+[2.414s] copying /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build/lib/turtlebot_teleop/obstacle_detection.py -> /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop
+[2.414s] copying /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build/lib/turtlebot_teleop/teleop_node.py -> /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop
+[2.414s] byte-compiling /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop/obstacle_detection.py to obstacle_detection.cpython-310.pyc
+[2.415s] byte-compiling /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop/teleop_node.py to teleop_node.cpython-310.pyc
+[2.415s] running install_egg_info
+[2.416s] removing '/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop-0.0.0-py3.10.egg-info' (and everything under it)
+[2.417s] Copying ../../build/turtlebot_teleop/turtlebot_teleop.egg-info to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop-0.0.0-py3.10.egg-info
+[2.418s] running install_scripts
+[2.435s] Installing obstacle_detection script to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop
+[2.435s] Installing teleop_interface script to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop
+[2.435s] Installing teleop_node script to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop
+[2.435s] writing list of installed files to '/home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/install.log'
+[2.456s] Invoked command in '/home/oiomestre674/Turtlebot-teleoperado/src/turtlebot_teleop' returned '0': PYTHONPATH=/home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/prefix_override:/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_teleop build --build-base /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build install --record /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/install.log --single-version-externally-managed

@@ -11,5 +11,9 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 turtlebot_teleop/__init__.py
+turtlebot_teleop/image_publisher.py
+turtlebot_teleop/image_subscriber.py
+turtlebot_teleop/obstacle_detection.py
 turtlebot_teleop/teleop_interface.py
+turtlebot_teleop/teleop_interface_gui.py
 turtlebot_teleop/teleop_node.py

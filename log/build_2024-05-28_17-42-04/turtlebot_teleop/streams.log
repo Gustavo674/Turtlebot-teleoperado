@@ -1,0 +1,30 @@
+[2.141s] Invoking command in '/home/oiomestre674/Turtlebot-teleoperado/src/turtlebot_teleop': PYTHONPATH=/home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/prefix_override:/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_teleop build --build-base /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build install --record /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/install.log --single-version-externally-managed
+[2.629s] running egg_info
+[2.630s] writing ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/PKG-INFO
+[2.630s] writing dependency_links to ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/dependency_links.txt
+[2.631s] writing entry points to ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/entry_points.txt
+[2.631s] writing requirements to ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/requires.txt
+[2.631s] writing top-level names to ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/top_level.txt
+[2.633s] reading manifest file '../../build/turtlebot_teleop/turtlebot_teleop.egg-info/SOURCES.txt'
+[2.669s] writing manifest file '../../build/turtlebot_teleop/turtlebot_teleop.egg-info/SOURCES.txt'
+[2.669s] running build
+[2.669s] running build_py
+[2.670s] copying turtlebot_teleop/image_publisher.py -> /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build/lib/turtlebot_teleop
+[2.670s] copying turtlebot_teleop/image_subscriber.py -> /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build/lib/turtlebot_teleop
+[2.670s] running install
+[2.671s] running install_lib
+[2.672s] copying /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build/lib/turtlebot_teleop/image_publisher.py -> /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop
+[2.672s] copying /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build/lib/turtlebot_teleop/image_subscriber.py -> /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop
+[2.673s] byte-compiling /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop/image_publisher.py to image_publisher.cpython-310.pyc
+[2.673s] byte-compiling /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop/image_subscriber.py to image_subscriber.cpython-310.pyc
+[2.674s] running install_egg_info
+[2.675s] removing '/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop-0.0.0-py3.10.egg-info' (and everything under it)
+[2.676s] Copying ../../build/turtlebot_teleop/turtlebot_teleop.egg-info to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop-0.0.0-py3.10.egg-info
+[2.714s] running install_scripts
+[2.777s] Installing image_publisher script to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop
+[2.778s] Installing image_subscriber script to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop
+[2.779s] Installing obstacle_detection script to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop
+[2.779s] Installing teleop_interface script to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop
+[2.780s] Installing teleop_node script to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop
+[2.781s] writing list of installed files to '/home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/install.log'
+[2.846s] Invoked command in '/home/oiomestre674/Turtlebot-teleoperado/src/turtlebot_teleop' returned '0': PYTHONPATH=/home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/prefix_override:/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_teleop build --build-base /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build install --record /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/install.log --single-version-externally-managed

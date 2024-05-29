@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/entry_points.txt
+writing requirements to ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/requires.txt
+writing top-level names to ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/top_level.txt
+reading manifest file '../../build/turtlebot_teleop/turtlebot_teleop.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlebot_teleop/turtlebot_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+copying turtlebot_teleop/image_subscriber.py -> /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build/lib/turtlebot_teleop
+running install
+running install_lib
+copying /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build/lib/turtlebot_teleop/image_subscriber.py -> /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop
+byte-compiling /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop/image_subscriber.py to image_subscriber.cpython-310.pyc
+running install_egg_info
+removing '/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/turtlebot_teleop/turtlebot_teleop.egg-info to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop-0.0.0-py3.10.egg-info
+running install_scripts
+Installing image_publisher script to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop
+Installing image_subscriber script to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop
+Installing obstacle_detection script to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop
+Installing teleop_interface script to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop
+Installing teleop_node script to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop
+writing list of installed files to '/home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/install.log'

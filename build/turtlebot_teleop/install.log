@@ -1,8 +1,16 @@
 /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop/teleop_interface.py
+/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop/image_publisher.py
 /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop/__init__.py
+/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop/obstacle_detection.py
+/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop/teleop_interface_gui.py
+/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop/image_subscriber.py
 /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop/teleop_node.py
 /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop/__pycache__/teleop_interface.cpython-310.pyc
+/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop/__pycache__/image_publisher.cpython-310.pyc
 /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop/__pycache__/__init__.cpython-310.pyc
+/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop/__pycache__/obstacle_detection.cpython-310.pyc
+/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop/__pycache__/teleop_interface_gui.cpython-310.pyc
+/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop/__pycache__/image_subscriber.cpython-310.pyc
 /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop/__pycache__/teleop_node.cpython-310.pyc
 /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop-0.0.0-py3.10.egg-info/top_level.txt
 /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop-0.0.0-py3.10.egg-info/dependency_links.txt
@@ -11,5 +19,9 @@
 /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop-0.0.0-py3.10.egg-info/requires.txt
 /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop-0.0.0-py3.10.egg-info/entry_points.txt
 /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop-0.0.0-py3.10.egg-info/zip-safe
+/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop/image_publisher
+/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop/image_subscriber
+/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop/obstacle_detection
 /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop/teleop_interface
+/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop/teleop_interface_gui
 /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop/teleop_node

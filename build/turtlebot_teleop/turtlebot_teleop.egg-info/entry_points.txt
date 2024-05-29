@@ -1,4 +1,8 @@
 [console_scripts]
+image_publisher = turtlebot_teleop.image_publisher:main
+image_subscriber = turtlebot_teleop.image_subscriber:main
+obstacle_detection = turtlebot_teleop.obstacle_detection:main
 teleop_interface = turtlebot_teleop.teleop_interface:main
+teleop_interface_gui = turtlebot_teleop.teleop_interface_gui:main
 teleop_node = turtlebot_teleop.teleop_node:main
 

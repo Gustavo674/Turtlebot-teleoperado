@@ -1,0 +1,28 @@
+[0.719s] Invoking command in '/home/oiomestre674/Turtlebot-teleoperado/src/turtlebot_teleop': PYTHONPATH=/home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/prefix_override:/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_teleop build --build-base /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build install --record /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/install.log --single-version-externally-managed
+[0.937s] running egg_info
+[0.937s] writing ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/PKG-INFO
+[0.938s] writing dependency_links to ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/dependency_links.txt
+[0.938s] writing entry points to ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/entry_points.txt
+[0.938s] writing requirements to ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/requires.txt
+[0.938s] writing top-level names to ../../build/turtlebot_teleop/turtlebot_teleop.egg-info/top_level.txt
+[0.939s] reading manifest file '../../build/turtlebot_teleop/turtlebot_teleop.egg-info/SOURCES.txt'
+[0.940s] writing manifest file '../../build/turtlebot_teleop/turtlebot_teleop.egg-info/SOURCES.txt'
+[0.940s] running build
+[0.940s] running build_py
+[0.941s] copying turtlebot_teleop/teleop_interface_gui.py -> /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build/lib/turtlebot_teleop
+[0.941s] running install
+[0.941s] running install_lib
+[0.942s] copying /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build/lib/turtlebot_teleop/teleop_interface_gui.py -> /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop
+[0.942s] byte-compiling /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop/teleop_interface_gui.py to teleop_interface_gui.cpython-310.pyc
+[0.943s] running install_egg_info
+[0.945s] removing '/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop-0.0.0-py3.10.egg-info' (and everything under it)
+[0.945s] Copying ../../build/turtlebot_teleop/turtlebot_teleop.egg-info to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages/turtlebot_teleop-0.0.0-py3.10.egg-info
+[0.946s] running install_scripts
+[0.963s] Installing image_publisher script to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop
+[0.964s] Installing image_subscriber script to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop
+[0.964s] Installing obstacle_detection script to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop
+[0.964s] Installing teleop_interface script to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop
+[0.964s] Installing teleop_interface_gui script to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop
+[0.964s] Installing teleop_node script to /home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/turtlebot_teleop
+[0.964s] writing list of installed files to '/home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/install.log'
+[0.983s] Invoked command in '/home/oiomestre674/Turtlebot-teleoperado/src/turtlebot_teleop' returned '0': PYTHONPATH=/home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/prefix_override:/home/oiomestre674/Turtlebot-teleoperado/install/turtlebot_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_teleop build --build-base /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/build install --record /home/oiomestre674/Turtlebot-teleoperado/build/turtlebot_teleop/install.log --single-version-externally-managed
